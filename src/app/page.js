@@ -8,7 +8,7 @@ export default function Home() {
         We are currently working on something amazing. Stay tuned as we build a new platform dedicated to supporting charitable causes.
       </p>
       <button className="bg-blue-600 text-white py-3 px-6 rounded-full font-medium hover:bg-blue-700 transition" >
-       <a href="https://googl-clone-site.netlify.app/search">Learn More</a> 
+       <a href="https://github.com/arpan-pro-learner/Charity_Club">Learn More</a> 
       </button>
     </div>
   );
