@@ -11,10 +11,10 @@ const Homepage = () => {
       {/* Hero Section */}
       <section className="relative w-full h-screen bg-blue-600 flex items-center text-white text-left py-16 px-4">
         <Image
-          src="https://picsum.photos/1920/1080?random=1" // Placeholder image URL from Lorem Picsum
+          src="https://picsum.photos/1920/1080?random=1" // Placeholder image URL
           alt="Hero background"
-          layout="fill" // Make it a background image
-          objectFit="cover" // Cover the entire section
+          layout="fill"
+          objectFit="cover"
           className="absolute inset-0 opacity-30"
         />
 
@@ -57,7 +57,7 @@ const Homepage = () => {
       {/* Call to Action Section */}
       <section id="donate" className="bg-gray-200 p-20 text-center my-20 w-full">
         <h2 className="text-3xl font-semibold">Make a Difference Today!</h2>
-        <p className="mt-3 text-lg">Your contribution can create change in people's lives. Join countless others who are making a difference.</p>
+        <p className="mt-3 text-lg">Your contribution can create change in people&apos;s lives. Join countless others who are making a difference.</p>
         <p className="mt-2">Every dollar counts and helps provide food, education, and healthcare.</p>
         <a href="#charities" className="mt-4 inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-lg transition duration-300 transform hover:scale-105">
           Donate Now
